@@ -1,10 +1,10 @@
-**# blog-service**
+# blog-service
 
-**## get started with the offical document**
+## get started with the offical document
 
-\+ https://gin-gonic.com/docs/quickstart/
++ https://gin-gonic.com/docs/quickstart/
 
-**## design a structure of a new go program**
+## design a structure of a new go program
 
 ```blog-service_structure
 ├── configs
