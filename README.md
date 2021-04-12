@@ -45,4 +45,6 @@ blog_service.db
 | get the list of articles    | GET         | /articles     |
 
 # design routers
-
++ design methos of routers
++ /routers/api/v1/Tag.go
++ /routers/api/v1/Article.go
