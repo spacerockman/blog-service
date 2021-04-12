@@ -46,5 +46,36 @@ blog_service.db
 
 # design routers
 + design methos of routers
++ /routers/api/v1/router.go (common)
 + /routers/api/v1/Tag.go
 + /routers/api/v1/Article.go
+  
+```
+├── README.md
+├── blog_service.db
+├── configs
+├── docs
+├── global
+├── go.mod
+├── go.sum
+├── internal
+│   ├── dao
+│   ├── middleware
+│   ├── model
+│   │   ├── article.go
+│   │   ├── article_tag.go
+│   │   ├── model.go
+│   │   └── tag.go
+│   ├── routers
+│   │   ├── api
+│   │   │   └── v1
+│   │   │       ├── Article.go
+│   │   │       └── Tag.go
+│   │   └── router.go
+│   └── service
+├── main.go
+├── pkg
+├── scripts
+├── storage
+└── third_party
+```
