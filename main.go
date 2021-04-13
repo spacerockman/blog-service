@@ -14,7 +14,7 @@ import (
 func init() {
 	err := setupSetting()
 	if err != nil {
-		log.Fatal("init.setupSetting err: %v", err)
+		log.Printf("init.setupSetting err: %v", err)
 	}
 }
 
