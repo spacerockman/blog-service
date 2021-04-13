@@ -79,3 +79,24 @@ blog_service.db
 ├── storage
 └── third_party
 ```
+# design common components
+
+## error code
++ pkg/errcode/common_code.go -- common error code
++  pkg/errcode/errcode.go -- deal with errors
+
+## configuration
++ $ go get -u github.com/spf13/viper@v1.4.0 -- install viper
++ configs/config.yaml
+
+## componnets
++ pkg/setting/setting.go --↑used for read the configuration
++ pkg/setting/section.go --↑used for read the configuration
+
+## connect configuration with the application
++ global/setting.go
+
+## initialize and read the configuration
++ main.go
+  + init()
+  + setupSetting()
