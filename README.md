@@ -81,22 +81,22 @@ blog_service.db
 ```
 # design common components
 
-## -error code
+## 1. error code
 + pkg/errcode/common_code.go -- common error code
 +  pkg/errcode/errcode.go -- deal with errors
 
-## -configuration
+## 2. configuration
 + $ go get -u github.com/spf13/viper@v1.4.0 -- install viper
 + configs/config.yaml
 
-## -componnets
+## 3. componnets
 + pkg/setting/setting.go --↑used for read the configuration
 + pkg/setting/section.go --↑used for read the configuration
 
-## -connect configuration with the application
+## 4. connect configuration with the application
 + global/setting.go
 
-## -initialize and read the configuration
+## 5. initialize and read the configuration
 + main.go
   + init()
   + setupSetting()
