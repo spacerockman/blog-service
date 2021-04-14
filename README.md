@@ -139,7 +139,7 @@ blog_service.db
 └── third_party
 ```
 
-## connetc to Database
+## 6. connetc to Database
   1. go get -u github.com/jinzhu/gorm@v1.9.12 --with gorm
   2. internal/model/model.go -----> NewDBEngine()
   3. initialize mysql
